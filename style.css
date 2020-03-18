@@ -6,7 +6,7 @@ body {
 
 #AllPage {
     font-family: Helvetica, Arial, Helvetica, sans-serif;
-    text-align: center;
+    /*text-align: center;*/
     color: #fbfef9;
     margin: auto;
     width: 1400px;
@@ -66,11 +66,12 @@ body {
     width: 1400px;
     max-width: 100%;
     position: absolute;
-    position: center;
+    /*position: center;*/
     border-radius: 10px;
     border-width: 2px;
     margin: 2px;
     font-family: Helvetica, Arial, Helvetica, sans-serif;
+    text-align: right;
     box-sizing: border-box;
     z-index: 1;
 }
@@ -87,6 +88,7 @@ body {
     border-width: 2px;
     margin: 2px;
     font-family: Helvetica, Arial, Helvetica, sans-serif;
+    text-align: center;
     box-sizing: border-box;
     overflow: auto;
     z-index: 2;
@@ -104,6 +106,7 @@ body {
     border-width: 2px;
     margin: 2px;
     font-family: Helvetica, Arial, Helvetica, sans-serif;
+    text-align: center;
     box-sizing: border-box;
     z-index: 3;
 }
@@ -126,7 +129,9 @@ p {
     text-align: right;
     font-family: Helvetica, Arial, Helvetica, sans-serif;
     color: #000000;
-    font-size: 20px;
+    font-size: 15px;
+    text-align: right;
+    /*font-weight: bold;*/
     padding: 2px;
     text-decoration: none;
 }
