@@ -92,6 +92,7 @@ body {
     box-sizing: border-box;
     overflow: auto;
     z-index: 2;
+    scroll-behavior: smooth;
 }
 
 #Footer {
@@ -110,21 +111,11 @@ body {
     box-sizing: border-box;
     z-index: 3;
 }
-#identification {
-    transition-delay: 10s;
-}
-#skills {
-    transition-delay: 10s;
-}
-#education {
-    transition-delay: 10s;
-}
-#experience {
-    transition-delay: 10s;
-}
-#github {
-    transition-delay: 10s;
-}
+#identification {scroll-behavior: smooth;}
+#skills {scroll-behavior: smooth;}
+#education {scroll-behavior: smooth;}
+#experience {scroll-behavior: smooth;}
+#github {scroll-behavior: smooth;}
 
 ul li {
     font-family: Helvetica, Arial, Helvetica, sans-serif;
@@ -146,9 +137,9 @@ p {
     color: #000000;
     font-size: 15px;
     text-align: right;
-    /*font-weight: bold;*/
     padding: 2px;
     text-decoration: none;
+    transition: 2s;
 }
     .menu a:hover {
         color: #fbfef9;
@@ -211,9 +202,10 @@ p {
     font-size: 20px;
     padding: 2px;
     text-decoration: none;
+    transition: 2s;
 }
 
-    .menu a:hover {
+    .github a:hover {
         color: #fbfef9;
     }
 
